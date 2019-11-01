@@ -90,6 +90,11 @@ h6 {
   margin-top: 3rem;
 }
 
+.spinner {
+  width: 2rem;
+  height: 2rem;
+}
+
 .error {
   text-align: center;
   text-transform: uppercase;
