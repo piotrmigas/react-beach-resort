@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <React.Fragment>
       <Hero>
-        <Banner title="luxurious rooms" subtitle="deluxe rooms starting at 230£">
+        <Banner title="premium apartments" subtitle="deluxe rooms starting at 230£">
           <Link to="/rooms" className="btn-primary">
             our rooms
           </Link>
