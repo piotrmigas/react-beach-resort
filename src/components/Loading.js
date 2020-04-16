@@ -1,13 +1,11 @@
 import React from "react";
 import loadingGif from "../images/loading-arrow.gif";
 
-const Loading = () => {
-  return (
-    <div className="loading">
-      <h4>rooms data loading...</h4>
-      <img src={loadingGif} className="spinner" alt="" />
-    </div>
-  );
-};
+const Loading = () => (
+  <div className="loading">
+    <h4>rooms data loading...</h4>
+    <img src={loadingGif} className="spinner" alt="" />
+  </div>
+);
 
 export default Loading;
